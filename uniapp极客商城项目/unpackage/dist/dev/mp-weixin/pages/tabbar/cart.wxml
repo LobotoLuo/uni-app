@@ -1,0 +1,1 @@
+<view class="cart"><scroll-view class="scroll" scroll-y="true"><db-cartgoods vue-id="4b7a7c3e-1" bind:__l="__l"></db-cartgoods></scroll-view><view class="bottombar"><view class="sum">{{"合计:"+totalPrice}}</view><view data-event-opts="{{[['tap',[['pay',['$event']]]]]}}" class="pay" bindtap="__e">结算</view></view></view>

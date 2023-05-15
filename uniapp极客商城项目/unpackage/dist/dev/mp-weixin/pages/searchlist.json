@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索列表",
+  "usingComponents": {
+    "db-nav": "/components/db-nav/db-nav",
+    "db-goods": "/components/db-goods/db-goods"
+  }
+}

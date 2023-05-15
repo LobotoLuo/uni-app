@@ -1,0 +1,1 @@
+<view class="setup"><db-nav vue-id="2c35ec32-1" title="设置" bind:__l="__l"></db-nav><view class="version"><view class="title">版本号</view><view class="content">1.0.0</view></view><button class="logout" type="default" data-event-opts="{{[['tap',[['logout',['$event']]]]]}}" bindtap="__e">退出登录</button></view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "db-nav": "/components/db-nav/db-nav"
+  }
+}

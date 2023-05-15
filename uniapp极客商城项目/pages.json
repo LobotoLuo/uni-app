@@ -1,0 +1,181 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/tabbar/main",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabbar/choose",
+			"style": {
+				"navigationBarTitleText": "精选"
+			}
+		},
+		{
+			"path": "pages/tabbar/resume",
+			"style": {
+				"navigationBarTitleText": "个人"
+			}
+		},
+		{
+			"path": "pages/tabbar/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/tabbar/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/resumedetail",
+			"style": {
+				"navigationBarTitleText": "个人详情"
+			}
+		},
+		{
+			"path": "pages/discount",
+			"style": {
+				"navigationBarTitleText": "今日特惠"
+			}
+		},
+		{
+			"path": "pages/goodsdetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/sign",
+			"style": {
+				"navigationBarTitleText": "签到"
+			}
+		},
+		{
+			"path": "pages/vip",
+			"style": {
+				"navigationBarTitleText": "会员"
+			}
+		},
+		{
+			"path": "pages/vipright",
+			"style": {
+				"navigationBarTitleText": "会员特权"
+			}
+		},
+		{
+			"path": "pages/collect",
+			"style": {
+				"navigationBarTitleText": "收藏"
+			}
+		},
+		{
+			"path": "pages/info",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/cards",
+			"style": {
+				"navigationBarTitleText": "卡包"
+			}
+		},
+		{
+			"path": "pages/modiinfo",
+			"style": {
+				"navigationBarTitleText": "信息修改"
+			}
+		},
+		{
+			"path": "pages/setup",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+
+		{
+			"path": "pages/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/searchlist",
+			"style": {
+				"navigationBarTitleText": "搜索列表"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+
+	"tabBar": {
+		//tabbar 上的文字默认颜色，HexColor
+		"color": "#000000",
+		//tabbar 上的文字选中时的颜色，HexColor
+		"selectedColor": "#F0AD4E",
+		//tabbar 的背景色，HexColor
+		"backgroundColor": "transparent",
+		//tabBar上边框的颜色， 仅支持 black/white
+		"borderStyle": "black",
+		//list里面放的是tabbar上的按钮列表
+		"list": [{
+				//页面的路径
+				"pagePath": "pages/tabbar/main",
+				//tabbar按钮的文字
+				"text": "首页",
+				//tabbabr按钮选中时的图片
+				"selectedIconPath": "static/tabbar/mainselect.png",
+				//tabbar按钮未选中时的图片
+				"iconPath": "static/tabbar/main.png"
+			}, {
+				"pagePath": "pages/tabbar/choose",
+				"text": "精选",
+				"selectedIconPath": "static/tabbar/chooseselect.png",
+				"iconPath": "static/tabbar/choose.png"
+			},
+
+			{
+				"pagePath": "pages/tabbar/cart",
+				"text": "购物车",
+				"selectedIconPath": "./static/tabbar/cartselect.png",
+				"iconPath": "static/tabbar/cart.png"
+			},
+			{
+				"pagePath": "pages/tabbar/resume",
+				"text": "个人",
+				"selectedIconPath": "./static/tabbar/resumeselect.png",
+				"iconPath": "static/tabbar/resume.png"
+			},
+			{
+				"pagePath": "pages/tabbar/my",
+				"text": "我的",
+				"selectedIconPath": "./static/tabbar/myselect.png",
+				"iconPath": "static/tabbar/my.png"
+			}
+
+
+		]
+	}
+}

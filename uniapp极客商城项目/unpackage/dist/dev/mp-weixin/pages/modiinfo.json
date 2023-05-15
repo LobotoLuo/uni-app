@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "信息修改",
+  "usingComponents": {
+    "db-nav": "/components/db-nav/db-nav"
+  }
+}

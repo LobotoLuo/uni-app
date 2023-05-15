@@ -1,0 +1,1 @@
+<view class="db-nav"><view class="nav"><view class="title">{{''+title+''}}</view><image class="back" src="../../static/back.png" data-event-opts="{{[['tap',[['back',['$event']]]]]}}" bindtap="__e"></image></view></view>

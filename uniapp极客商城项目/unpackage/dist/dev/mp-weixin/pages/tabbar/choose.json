@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "精选",
+  "usingComponents": {
+    "db-segment": "/components/db-segment/db-segment",
+    "db-longsegment": "/components/db-longsegment/db-longsegment",
+    "db-goods": "/components/db-goods/db-goods"
+  }
+}

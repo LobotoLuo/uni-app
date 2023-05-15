@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/login",
+    "pages/register",
+    "pages/tabbar/main",
+    "pages/tabbar/choose",
+    "pages/tabbar/my",
+    "pages/tabbar/cart",
+    "pages/goodsdetail",
+    "pages/sign",
+    "pages/vip",
+    "pages/vipright",
+    "pages/modiinfo",
+    "pages/setup",
+    "pages/search",
+    "pages/searchlist"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#F0AD4E",
+    "backgroundColor": "transparent",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/main",
+        "text": "首页",
+        "selectedIconPath": "static/tabbar/mainselect.png",
+        "iconPath": "static/tabbar/main.png"
+      },
+      {
+        "pagePath": "pages/tabbar/choose",
+        "text": "精选",
+        "selectedIconPath": "static/tabbar/chooseselect.png",
+        "iconPath": "static/tabbar/choose.png"
+      },
+      {
+        "pagePath": "pages/tabbar/cart",
+        "text": "购物车",
+        "selectedIconPath": "./static/tabbar/cartselect.png",
+        "iconPath": "static/tabbar/cart.png"
+      },
+      {
+        "pagePath": "pages/tabbar/my",
+        "text": "我的",
+        "selectedIconPath": "./static/tabbar/myselect.png",
+        "iconPath": "static/tabbar/my.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

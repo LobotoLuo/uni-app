@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "会员特权",
+  "usingComponents": {
+    "db-nav": "/components/db-nav/db-nav"
+  }
+}

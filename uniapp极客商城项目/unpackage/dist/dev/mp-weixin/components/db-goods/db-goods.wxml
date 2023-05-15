@@ -1,0 +1,1 @@
+<view class="db-goods"><image class="goodsimg" src="{{goods.url}}"></image><view class="name">{{goods.name}}</view><view class="price">{{"￥"+goods.price}}</view></view>

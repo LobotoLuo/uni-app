@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "注册",
+  "usingComponents": {
+    "db-nav": "/components/db-nav/db-nav"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="db-search"><view data-event-opts="{{[['tap',[['search',['$event']]]]]}}" class="search" bindtap="__e"><image class="code" src="../../static/code.png"></image><view class="line"></view><view class="input _div">点击搜索</view><image class="carema" src="../../static/camera.png"></image><view class="btn">搜索</view></view></view>

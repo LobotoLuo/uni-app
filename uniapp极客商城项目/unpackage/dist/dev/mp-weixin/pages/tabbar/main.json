@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "db-segment": "/components/db-segment/db-segment",
+    "db-search": "/components/db-search/db-search",
+    "db-mainmenu": "/components/db-mainmenu/db-mainmenu",
+    "db-goods": "/components/db-goods/db-goods"
+  }
+}

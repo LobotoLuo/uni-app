@@ -1,0 +1,1 @@
+<view class="db-mainmenu"><view class="mainmenu"><image class="img" src="{{menuobj.url}}"></image><view class="text">{{menuobj.name}}</view></view></view>
